@@ -327,6 +327,23 @@ const updateQuantity = async (req, res) => {
     }
 };
 
+// view_inventory_log_details
+const allInventoryLog = async (req, res) => {
+    try {
+        const storeId = req.params.storeId;
+        if (!storeId) {
+            return res.status(400).json({ message: "Store ID is required" });
+        }
+        const inventoryLogResult = await pool.query(
+            "SELECT * FROM view_inventory_log_details WHERE store_id = $1", [storeId]
+        );
+        const inventoryLogRows = inventoryLogResult.rows;
+        res.status(200).json(inventoryLogRows);
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+}
+
 module.exports = {
     allStoreDetails,
     oneStore,
@@ -336,4 +353,5 @@ module.exports = {
     bookByName,
     addInventory,
     updateQuantity,
+    allInventoryLog
 };
