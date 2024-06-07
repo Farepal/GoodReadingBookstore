@@ -5,7 +5,9 @@ TEKNOLOGI INFORMASI
 # CARA MENJALANKAN  
 npm i  
 npm run dev  
-  
+
+# ALL URL REQUEST ada di folder ThunderClient  
+
 # STAFF  
 # Customer  
 # Store  
