@@ -1,0 +1,127 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "customer",
+    "collectionId": "053348c1-1c98-4d24-85e2-c4413ed7d5b7",
+    "dateExported": "2024-06-07T16:59:37.791Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6f8b5a3f-7da8-4c8d-98c7-dbd4dbce98ce",
+            "colId": "053348c1-1c98-4d24-85e2-c4413ed7d5b7",
+            "containerId": "",
+            "name": "customer list",
+            "url": "http://localhost:3500/customer",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-07T11:37:24.647Z",
+            "modified": "2024-06-07T11:38:20.156Z",
+            "headers": []
+        },
+        {
+            "_id": "3b2d62b1-6626-4936-9111-a1669b72191e",
+            "colId": "053348c1-1c98-4d24-85e2-c4413ed7d5b7",
+            "containerId": "",
+            "name": "one customer",
+            "url": "http://localhost:3500/customer/74",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-07T11:49:43.924Z",
+            "modified": "2024-06-07T12:48:42.926Z",
+            "headers": []
+        },
+        {
+            "_id": "494f1c74-d4db-43e8-8051-d404b944d2f0",
+            "colId": "053348c1-1c98-4d24-85e2-c4413ed7d5b7",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3500/customer/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-07T11:52:47.519Z",
+            "modified": "2024-06-07T11:59:00.346Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"johndoe@example.com\",\n  \"password\": \"P@ssw0rd123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5326392d-7994-42c6-93fd-ae8a7d3401cd",
+            "colId": "053348c1-1c98-4d24-85e2-c4413ed7d5b7",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:3500/customer/register",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-06-07T11:56:19.282Z",
+            "modified": "2024-06-07T11:58:26.542Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"johndoe\",\n  \"email\": \"johndoe@example.com\",\n  \"password\": \"P@ssw0rd123\",\n  \"firstName\": \"John\",\n  \"lastName\": \"Doe\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3b1dcbff-904a-47eb-abef-2d0cd8237201",
+            "colId": "053348c1-1c98-4d24-85e2-c4413ed7d5b7",
+            "containerId": "",
+            "name": "delete wishlist",
+            "url": "http://localhost:3500/customer/wishlist/82",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-06-07T12:16:23.524Z",
+            "modified": "2024-06-07T15:32:39.970Z",
+            "headers": []
+        },
+        {
+            "_id": "bb561a67-2d4f-4aaf-840f-a6979d20183e",
+            "colId": "053348c1-1c98-4d24-85e2-c4413ed7d5b7",
+            "containerId": "",
+            "name": "add wishlist to specific customer",
+            "url": "http://localhost:3500/customer/wishlist",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-06-07T12:18:46.704Z",
+            "modified": "2024-06-07T12:23:24.531Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"customerId\": 100,\n  \"inventoryId\": 70\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "37f9109c-85a8-438e-ae2c-5b4d1c1842df",
+            "colId": "053348c1-1c98-4d24-85e2-c4413ed7d5b7",
+            "containerId": "",
+            "name": "delete address",
+            "url": "http://localhost:3500/customer/address/2",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-06-07T12:26:30.439Z",
+            "modified": "2024-06-07T13:14:54.963Z",
+            "headers": []
+        },
+        {
+            "_id": "36961ab6-4003-4d2e-9ce3-41f5a34b1b3f",
+            "colId": "053348c1-1c98-4d24-85e2-c4413ed7d5b7",
+            "containerId": "",
+            "name": "add address",
+            "url": "http://localhost:3500/customer/address/74",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-06-07T13:25:42.957Z",
+            "modified": "2024-06-07T15:33:14.805Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"address\": \"Jl. Naga Jaya No. 90\",\n   \"city\": \"Jakarta\",\n   \"postalCode\": \"12930\",\n   \"district\": \"Cengkareng\",\n   \"country\": \"Indonesia\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "qgVlWXsbMJXnGXT8DNuCWTDTK4USX1Bt0djsL8D22TzEHSKCtBrpAP5QYK4yKXlcel96HpCLa5ioKI_GphLh8A"
+}

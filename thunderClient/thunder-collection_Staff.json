@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Staff",
+    "collectionId": "563c6cc7-891c-461a-bd68-aee3a42eb954",
+    "dateExported": "2024-06-07T16:58:30.852Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fc534e61-d1c8-437f-aea1-0385d731f75f",
+            "colId": "563c6cc7-891c-461a-bd68-aee3a42eb954",
+            "containerId": "",
+            "name": "getOneStaff",
+            "url": "http://localhost:3500/staff/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-07T11:13:19.013Z",
+            "modified": "2024-06-07T15:30:56.622Z",
+            "headers": []
+        },
+        {
+            "_id": "b5756bdc-7e23-4732-8c2d-1c2c3f3a8b2a",
+            "colId": "563c6cc7-891c-461a-bd68-aee3a42eb954",
+            "containerId": "",
+            "name": "register staff",
+            "url": "http://localhost:3500/staff/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-07T11:18:59.607Z",
+            "modified": "2024-06-07T15:31:06.570Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"budiono_ksai@gmail.com\",\n  \"password\": \"ke3su%cisAAn\",\n  \"storeName\": \"GRB Ahmad Yani\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8c36018d-b718-4c98-a9c0-bac306b5f88f",
+            "colId": "563c6cc7-891c-461a-bd68-aee3a42eb954",
+            "containerId": "",
+            "name": "getAllStaff",
+            "url": "http://localhost:3500/staff",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-07T11:22:05.307Z",
+            "modified": "2024-06-07T11:22:10.458Z",
+            "headers": []
+        },
+        {
+            "_id": "a3e9c540-edc5-4d5e-8d23-6a994b9fc737",
+            "colId": "563c6cc7-891c-461a-bd68-aee3a42eb954",
+            "containerId": "",
+            "name": "login staff",
+            "url": "http://localhost:3500/staff/login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-06-07T11:23:26.532Z",
+            "modified": "2024-06-07T11:26:29.996Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"repalfarel@gmail.com\",\n  \"password\": \"#kuCingG4r0n9\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d90dc479-61c5-44cc-a31a-76d73c619292",
+            "colId": "563c6cc7-891c-461a-bd68-aee3a42eb954",
+            "containerId": "",
+            "name": "patch staff",
+            "url": "http://localhost:3500/staff/3",
+            "method": "PATCH",
+            "sortNum": 50000,
+            "created": "2024-06-07T11:33:12.362Z",
+            "modified": "2024-06-07T15:31:34.094Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"storeId\": 2,\n  \"email\": \"sasdajl@gmail.com\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "044LPKjcWvFxlr-j_ixOu4p56P2wIY84RMPzjPpOBA3YJsXwrRPQJTWCXeZnlqLdNXJ6cMS4uVPfmuKNVnnBAw"
+}

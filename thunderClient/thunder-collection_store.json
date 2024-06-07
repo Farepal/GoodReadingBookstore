@@ -1,0 +1,144 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "store",
+    "collectionId": "b777d57b-69f3-4af0-b2a7-a97e4a34d667",
+    "dateExported": "2024-06-07T17:00:00.974Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8762a121-36b9-4f13-8ac1-c3e241be3067",
+            "colId": "b777d57b-69f3-4af0-b2a7-a97e4a34d667",
+            "containerId": "",
+            "name": "all store details",
+            "url": "http://localhost:3500/store",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-07T14:11:04.294Z",
+            "modified": "2024-06-07T14:11:16.254Z",
+            "headers": []
+        },
+        {
+            "_id": "0c3ec2d2-750e-4822-ad1a-7f9220ad61ec",
+            "colId": "b777d57b-69f3-4af0-b2a7-a97e4a34d667",
+            "containerId": "",
+            "name": "one store",
+            "url": "http://localhost:3500/store/9",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-07T14:17:45.092Z",
+            "modified": "2024-06-07T14:17:58.941Z",
+            "headers": []
+        },
+        {
+            "_id": "cca6074b-0c8e-48b3-a63a-14de2e315c7a",
+            "colId": "b777d57b-69f3-4af0-b2a7-a97e4a34d667",
+            "containerId": "",
+            "name": "all category",
+            "url": "http://localhost:3500/store/category",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-07T14:29:02.699Z",
+            "modified": "2024-06-07T14:29:18.824Z",
+            "headers": []
+        },
+        {
+            "_id": "b3547b3a-7432-43f2-834a-d42ec086693e",
+            "colId": "b777d57b-69f3-4af0-b2a7-a97e4a34d667",
+            "containerId": "",
+            "name": "get book by author",
+            "url": "http://localhost:3500/store/1/book/author",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-07T14:44:12.404Z",
+            "modified": "2024-06-07T15:36:15.445Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"author\": \"Hirata\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0bd8cebc-5954-4b2d-bd3b-1de78ed1647c",
+            "colId": "b777d57b-69f3-4af0-b2a7-a97e4a34d667",
+            "containerId": "",
+            "name": "book by category",
+            "url": "http://localhost:3500/store/1/book/category",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-06-07T14:48:11.937Z",
+            "modified": "2024-06-07T14:52:58.816Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"category\": \"Romance\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6dbc6df7-58a8-4779-b4b9-e06130256f48",
+            "colId": "b777d57b-69f3-4af0-b2a7-a97e4a34d667",
+            "containerId": "",
+            "name": "book by name",
+            "url": "http://localhost:3500/store/1/book/name",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-06-07T14:53:58.051Z",
+            "modified": "2024-06-07T14:54:19.023Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"cinta\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9cd66159-5ada-4c96-9aad-38a994a76310",
+            "colId": "b777d57b-69f3-4af0-b2a7-a97e4a34d667",
+            "containerId": "",
+            "name": "add inventory",
+            "url": "http://localhost:3500/store/1/inventory",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-06-07T14:59:46.556Z",
+            "modified": "2024-06-07T15:07:09.475Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"book_id\": 31,\n  \"staff_id\": 2,\n  \"quantity\": 20,\n  \"shelf_location\": \"I88\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6bfea8ac-42f0-4a53-a4d0-c1eb88a80d42",
+            "colId": "b777d57b-69f3-4af0-b2a7-a97e4a34d667",
+            "containerId": "",
+            "name": "update inventory quantity",
+            "url": "http://localhost:3500/store/1/inventory/113",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-06-07T15:13:38.771Z",
+            "modified": "2024-06-07T15:37:06.332Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"quantity\": 120,\n  \"staff_id\": 29\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4c3cd0e7-718a-48be-8a0b-affb28d94704",
+            "colId": "b777d57b-69f3-4af0-b2a7-a97e4a34d667",
+            "containerId": "",
+            "name": "inventory log of store",
+            "url": "http://localhost:3500/store/1/inventorylog",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-06-07T16:38:33.498Z",
+            "modified": "2024-06-07T16:38:46.196Z",
+            "headers": []
+        }
+    ],
+    "ref": "uEtQQaEeBIcCfsH_tTykjbtL9f2Z_GUmGH49o5Ik3JnrGzZbvvR00c9vAfzIWb3viYMzyYDFubchWOjiX80hoQ"
+}

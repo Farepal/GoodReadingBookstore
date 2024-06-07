@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "book",
+    "collectionId": "3b9ee165-d318-4a9e-83f5-70f98116eaa8",
+    "dateExported": "2024-06-07T16:59:46.170Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e3abfdfa-dd93-440b-b440-d85f805bb516",
+            "colId": "3b9ee165-d318-4a9e-83f5-70f98116eaa8",
+            "containerId": "",
+            "name": "book list",
+            "url": "http://localhost:3500/book",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-07T13:48:51.734Z",
+            "modified": "2024-06-07T13:49:08.689Z",
+            "headers": []
+        },
+        {
+            "_id": "fc25dab4-7a54-4748-8610-6df3afb5b035",
+            "colId": "3b9ee165-d318-4a9e-83f5-70f98116eaa8",
+            "containerId": "",
+            "name": "one book",
+            "url": "http://localhost:3500/book/21",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-07T13:49:56.813Z",
+            "modified": "2024-06-07T15:33:51.553Z",
+            "headers": []
+        },
+        {
+            "_id": "144f83ad-ec4e-46f3-95f5-c398337435ba",
+            "colId": "3b9ee165-d318-4a9e-83f5-70f98116eaa8",
+            "containerId": "",
+            "name": "add book",
+            "url": "http://localhost:3500/book",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-07T13:50:27.732Z",
+            "modified": "2024-06-07T15:34:56.230Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"Tender\",\n    \"publisher_name\": \"Scribner\",\n    \"publisher_founded_year\": 1846,\n    \"publisher_city\": \"New York\",\n    \"publisher_country\": \"United States\",\n    \"language\": \"English\",\n    \"price_in_rupiah\": 130000,\n    \"isbn\": \"97806848015\",\n    \"pages\": 317,\n    \"weight_in_grams\": 250,\n    \"synopsis\": \"Tender Is the Night, F. Scott Fitzgerald’s fourth novel, is a complex\",\n    \"author_first_name\": \"F. Scott\",\n    \"author_last_name\": \"Fitzgerald\",\n    \"author_date_of_birth\": \"1896-09-24\",\n    \"category\": \"Fiction\"\n}\n",
+                "form": []
+            }
+        }
+    ],
+    "ref": "ReOHUqpreG_mRkN1him51ozkBf1XEP4qdWQiy3K0eq59r-cFpmQgd1qCrRDk_N9fDUWm5h6yAQTE2FonLBXBhQ"
+}
