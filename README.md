@@ -14,26 +14,26 @@ register staff
 POST /staff/register  
 request body example  
 {  
-  "email": "budiono_ksai@gmail.com",  
-  "password": "ke3su%cisAAn",  
-  "storeName": "GRB Ahmad Yani"  
+&nbsp;"email": "budiono_ksai@gmail.com",  
+&nbsp;"password": "ke3su%cisAAn",  
+&nbsp;"storeName": "GRB Ahmad Yani"  
 }  
 
 login staff  
 POST /staff/login  
 request body example  
 {  
-  "email": "repalfarel@gmail.com",  
-  "password": "#kuCingG4r0n9"  
+&nbsp;"email": "repalfarel@gmail.com",  
+&nbsp;"password": "#kuCingG4r0n9"  
 }  
 
 mengubah beberapa data staff  
 PATCH /staff/:staffId
 request body example  
 {  
-  "storeId": 2, (optional)  
-  "email": "sasdajl@gmail.com" (optional)  
-  "password": "K4ucin9G@rong"  (optional)  
+&nbsp;"storeId": 2, (optional)  
+&nbsp;"email": "sasdajl@gmail.com" (optional)  
+&nbsp;"password": "K4ucin9G@rong"  (optional)  
 }  
 
 # Customer  
