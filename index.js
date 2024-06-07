@@ -16,8 +16,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(morgan('dev'));
 
-router.use('/customer', require('./API/routes/customerRoutes'));
-router.use('/staff', require('./API/routes/staffRoutes'));
+app.use('/customer', require('./API/routes/customerRoutes'));
+app.use('/staff', require('./API/routes/staffRoutes'));
+app.use('/book', require('./API/routes/bookRoutes'));
+app.use('/store', require('./API/routes/storeRoutes'));
 app.all('*', handler404);
 app.use((err, req, res, next) => {
     console.error(err.stack);

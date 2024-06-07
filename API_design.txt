@@ -1,0 +1,90 @@
+Utils
+    regexEmailAndPassword
+
+Management
+
+    customer
+
+        GET
+        Get All customer or with query just by id
+            including all the related of that customer like wishlist, location, email password, etc
+        
+        POST
+        register
+            regexEmailAndPassword
+            body
+                first name
+                last name
+                username
+                email
+                password
+            check if email exist then dont create
+            check if username exist then dont create
+        just ok RESPON without login, cookie, or session
+
+        POST
+        login
+        filter regexEmailAndPassword
+        body
+            email
+            password
+        check email exist
+        check password correct to related email
+        just ok respon without cookie or session, just to make sure if user exist
+
+        POST
+        add Location
+            body
+                customerId
+                address
+                city
+                postal_code
+                district
+                country
+            check if city and country exist
+            if exist
+                just insert it with id of country or city
+            
+    staff
+
+        GET
+        Get All staff or with query just by id
+            including all the related of that staff like store, email, password, etc
+        
+        POST
+        register staff
+            regexEmailAndPassword
+            body
+                email
+                password
+                store_id
+            check if email exist then dont create
+        
+        POST
+        login staff
+            body
+                email
+                password
+            check if email exist
+            check password to related email
+            just return OK just to make sure if staff exist
+			
+        PATCH
+        change staff store query by id staff_id
+            body
+                store_id
+            check if store_id exist
+            just return OK
+    
+    book
+
+        GET
+        all 
+
+    store
+
+    inventory
+
+    inventory_log
+			
+
