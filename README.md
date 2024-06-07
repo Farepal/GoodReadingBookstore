@@ -2,8 +2,9 @@ Muhamad Farrel Adrian
 22/505897/TK/55394  
 TEKNOLOGI INFORMASI  
 
-JANGAN LUPA YA  
+CARA MENJALANKAN  
 npm i  
+npm run dev  
   
 # STAFF  
 # Customer  
