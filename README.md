@@ -1,3 +1,3 @@
-Muhamad Farrel Adrian
-22/505897/TK/55394
+Muhamad Farrel Adrian  
+22/505897/TK/55394  
 TEKNOLOGI INFORMASI
